@@ -102,12 +102,7 @@
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #navbarSupportedContent {
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
-  }
-  .nav-item:hover {
-    background-color: rgb(146, 136, 192);
+    visibility: hidden;
   }
 }
 
