@@ -1,0 +1,124 @@
+/* Nav Bar */
+#brand {
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bold;
+
+  color: white;
+}
+
+/************End Nav Bar********/
+.title {
+  margin-top: 20px;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/************contant**********/
+.men1 {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.cont {
+  padding: 4px;
+  font-size: larger;
+}
+.men-title {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 100%;
+
+  vertical-align: middle;
+  color: white;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.back {
+  border-top-right-radius: 50%;
+  width: 100%;
+
+  vertical-align: middle;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+#h1 {
+  border: solid #f9d590;
+}
+#n1 {
+  border: solid #f9d590;
+  background-color: #f9d590;
+}
+#m1 {
+  border: solid #f9d590;
+  background-color: #f9d590;
+  color: white;
+  font-size: larger;
+}
+#h2 {
+  border: solid #a16868;
+}
+#n2 {
+  border: solid #a16868;
+  background-color: #a16868;
+}
+#m2 {
+  border: solid #a16868;
+  background-color: #a16868;
+  color: white;
+  font-size: larger;
+}
+#h3 {
+  border: solid blue;
+}
+#n3 {
+  border: solid blue;
+  background-color: blue;
+}
+#m3 {
+  border: solid blue;
+  background-color: blue;
+  color: white;
+  font-size: larger;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #navbarSupportedContent {
+    visibility: hidden;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbarSupportedContent {
+    visibility: hidden;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #navbarSupportedContent {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .nav-item:hover {
+    background-color: rgb(146, 136, 192);
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #navbarSupportedContent {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .nav-item:hover {
+    background-color: rgb(146, 136, 192);
+  }
+}
